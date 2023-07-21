@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Landingpage from './pages/Landingpage/Landingpage.jsx'
 import Home from './pages/Home/Home.jsx';
 import NewsDetails from './pages/NewsDetails/NewsDetails.jsx'
-import WeatherDetails from './pages/WeaterDetails/WeatherDetails.jsx'
+import WeatherDetails from './pages/WeatherDetails/WeatherDetails';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           </Routes>
         </Router>
       </section>
+      <Footer />
     </>
   );
 }
